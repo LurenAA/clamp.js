@@ -7,7 +7,6 @@
 
 $clamp('#test', {clamp: 3})
 
-</br>
 $clamp('#test', {clamp: 3，tail:">?"})</br>
 //用>?结尾，默认是...</br>
 
