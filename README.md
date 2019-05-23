@@ -1,13 +1,13 @@
 👁‍🗨 用js实现限制多行文字的行数。
 
-🍧 简单例子：
+🍧 简单例子：https://github.com/LurenAA/clamp.js/blob/master/README.md
 $clamp('#test', {clamp: 3})
 
 $clamp('#test', {clamp: 3，tail:">?"})
 //用>?结尾，默认是...
 
 $clamp('#test', {clamp: 3，tailHtml："<a href = 
-"https://github.com/josephschmitt/Clamp.js">aa</a>"})
+'https://github.com/josephschmitt/Clamp.js'>aa<a>"})
 //以html标签结尾
 
 $clamp('#test', {clamp: 3，useNative: true})
